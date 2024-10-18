@@ -14,3 +14,7 @@ table, td, th {
   p {
     text-align: center;
   }
+
+  #header {
+    color: blue;
+  }
