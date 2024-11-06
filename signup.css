@@ -1,11 +1,36 @@
+* {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navbar {
+  text-align: right;
+  background-color: rgb(184, 186, 219);
+  padding: 10px;
+  padding-inline: 40px;
+}
+
+.navbar a {
+  text-decoration: none;
+  padding-inline: 5px;
+  font-size: medium;
+  padding: 7px;
+  color: #1d23d4;
+}
+
+.navbar a:hover {
+  color: rgb(29, 13, 154);
+}
+
+.navbar a.active {
+  color: whitesmoke;
+}
+
 #header {
   background-color: #2196F3;
   background-repeat: no-repeat;
   background-position: center;
   color: white;
-  margin: 20px;
   padding: 20px;
-  border-radius: 15px;
   text-align: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -18,8 +43,13 @@ input[type=text], [type=tel], [type=password], select {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    transition: width 0.4s ease-in-out;
   }
-  
+
+  input[type=text]:focus, [type=tel]:focus, [type=password]:focus {
+    width: 100%;
+  }
+
   input[type=submit] {
     width: 20%;
     background-color: #4CAF50;
@@ -118,7 +148,6 @@ input[type=text], [type=tel], [type=password], select {
 }
   
   div {
-    border-radius: 5px;
     background-color: #ea5d5d;
     padding: 20px;
   }
@@ -191,4 +220,8 @@ input[type=text], [type=tel], [type=password], select {
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
+}
+
+input[type=text]:focus {
+  width: 100%;
 }
