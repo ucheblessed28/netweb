@@ -1,3 +1,15 @@
+#header {
+  background-color: #2196F3;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 input[type=text], [type=tel], [type=password], select {
     width: 50%;
     padding: 12px 20px;
@@ -17,8 +29,6 @@ input[type=text], [type=tel], [type=password], select {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    display: inline;
-    margin-inline-end: 135px;
   }
 
   input[type=reset] {
@@ -30,7 +40,7 @@ input[type=text], [type=tel], [type=password], select {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    display: inline;
+    margin-inline-start: 135px;
   }
   
   input[type=submit]:hover {
@@ -109,7 +119,7 @@ input[type=text], [type=tel], [type=password], select {
   
   div {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: #ea5d5d;
     padding: 20px;
   }
 
