@@ -86,6 +86,9 @@ input[type=submit]:hover {
     @media (max-width: 768px) {
         padding-block: 50px;
         margin-block: 20px;
+        border-bottom-right-radius: 100px;
+        border-top-left-radius: 100px;
+        
     }
 }
 
