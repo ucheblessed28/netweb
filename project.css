@@ -38,7 +38,9 @@
 }
 
 .header-text h1 {
-    color: #ccc;
+    background-image: linear-gradient(to right, #b705ed, #c7d80b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     text-align: center;
     padding-top: 20px;
     font-size: 6rem;
