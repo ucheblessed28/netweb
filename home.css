@@ -72,7 +72,7 @@ input[type=submit]:hover {
     width: 95%;
     margin: 0 auto;
     min-height: 100%;
-    background-image: url("img/netflix-banner.jpg"), linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.568));
+    background-image: url("img/netflix-banner.jpg"), linear-gradient(rgba(0, 0, 0, 0.511),rgba(0, 0, 0, 0.699));
     background-blend-mode: overlay;
     background-size: cover;
     background-position: center;
@@ -256,6 +256,7 @@ nav {
     height: 100%;
     object-fit: cover;
     overflow: hidden;
+    transition: 0.5s ease-in-out;
   }
 
   .text-center {
